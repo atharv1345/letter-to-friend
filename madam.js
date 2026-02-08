@@ -1,4 +1,3 @@
-const herName = prompt("Enter her name 💖");
 if (herName) {
   document.getElementById("title").innerHTML = `🌹 Our Little Chat World with ${herName} 🌹`;
   document.getElementById("footer").innerHTML = `— From your friend, who enjoys every notification from ${herName}.`;
@@ -50,3 +49,4 @@ function createPetal() {
 }
 
 setInterval(createPetal, 600);
+
