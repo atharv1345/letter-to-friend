@@ -1,3 +1,4 @@
+const herName = prompt("Enter her madam 💖");
 if (herName) {
   document.getElementById("title").innerHTML = `🌹 Our Little Chat World with ${herName} 🌹`;
   document.getElementById("footer").innerHTML = `— From your friend, who enjoys every notification from ${herName}.`;
